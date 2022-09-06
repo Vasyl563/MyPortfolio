@@ -106,11 +106,11 @@
           </div>
         </v-col>
         <v-col md="3" offset-md="3" id="about">
-          <h4 class="white--text">FEATURED PROJECTS</h4>
-          <p class="grey--text">Lorem ipsum dolor Lorem ipsum dolor</p>
+          <h4 class="white--text text-title">FEATURED</h4>
+          <p class="grey--text">Here are several projects in which I used such technologies as HTML, CSS, JAVASCRIPT, VUE.JS</p>
         </v-col>
         <v-col md="3" class="text-end">
-          <v-btn tile color="#A7121D" dark> View All </v-btn>
+          <v-btn href="https://github.com/Vasyl563?tab=repositories" target="_blank" tile color="#A7121D" dark> View All </v-btn>
         </v-col>
         <v-col md="3" offset-md="3">
           <v-card
@@ -340,5 +340,8 @@ h1.number {
 }
 .btn-1 {
   margin-left: 20px;
+}
+.text-title {
+  margin-bottom: 2vh;
 }
 </style>
